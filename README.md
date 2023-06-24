@@ -43,7 +43,7 @@ The "Resources and Additional Information" directory provides links to official 
 
 ## License
 
-The content in this repository is available under the [LICENSE](LICENSE.txt) file. Please review the license file for more details.
+The content in this repository is available under the [LICENSE](LICENSE) file. Please review the license file for more details.
 
 ---
 
