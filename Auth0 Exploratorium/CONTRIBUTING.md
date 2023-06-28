@@ -46,13 +46,16 @@ Here's a visual representation of our contribution process using a mermaid diagr
 
 ```mermaid
 graph LR
-A[Fork Repository] --> B[Clone Repository]
-B --> C[Install Dependencies]
-C --> D[Create New Branch]
-D --> E[Make Changes]
-E --> F[Run Tests]
-F --> G[Commit Changes]
-G --> H[Push Changes]
-H --> I[Submit Pull Request]
-I --> J[Code Review]
-J --> K[Merge Changes]
+    A[Fork the Repository] --> B[Clone the Repository]
+    B --> C[Install Dependencies]
+    C --> D[Create a New Branch]
+    D --> E[Make Your Awesome Changes]
+    E --> F[Run Tests and Ensure Quality]
+    F --> G[Commit Your Changes]
+    G --> H[Push Your Changes]
+    H --> I[Submit a Pull Request]
+    I --> J[Code Review and Feedback]
+    J --> K[Merge Your Changes into Main]
+
+style A,B,C,D,E,F,G,H,I,J,K fill:#F9F3EC,stroke:#1E90FF,stroke-width:2px
+style A,B,C,D,E,F,G,H,I,J,K, #F9F3EC,stroke:#1E90FF,stroke-width:2px
