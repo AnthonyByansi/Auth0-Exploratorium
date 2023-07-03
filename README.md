@@ -4,14 +4,14 @@ Welcome to the Auth0 Exploratorium repository! This repository serves as a compr
 
 ## Table of Contents
 
-- [Getting Started](#getting-started)
-- [Sample Projects](#sample-projects)
-- [Features and Tutorials](#features-and-tutorials)
-- [Best Practices and Security](#best-practices-and-security)
-- [Integration Guides](#integration-guides)
-- [Advanced Topics](#advanced-topics)
-- [Resources and Additional Information](#resources-and-additional-information)
-- [License](#license)
+- [🚀 Getting Started](#getting-started)
+- [🌟 Sample Projects](#sample-projects)
+- [💡 Features and Tutorials](#features-and-tutorials)
+- [🔒 Best Practices and Security](#best-practices-and-security)
+- [🔗 Integration Guides](#integration-guides)
+- [🌈 Advanced Topics](#advanced-topics)
+- [📚 Resources and Additional Information](#resources-and-additional-information)
+- [📝 License](#license)
 
 ## Getting Started
 
