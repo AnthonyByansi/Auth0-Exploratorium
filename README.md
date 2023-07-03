@@ -70,15 +70,6 @@ graph LR
     linkStyle 4 stroke:#ff6600,stroke-width:2px
     linkStyle 5 stroke:#0099cc,stroke-width:2px
 
-    A("Getting Started"):::hover[Explore Auth0 Basics]
-    B("Sample Projects"):::hover[Discover Use Cases and Integrations]
-    C("Features and Tutorials"):::hover[Learn Auth0 Features]
-    D("Best Practices and Security"):::hover[Ensure Secure Implementations]
-    E("Integration Guides"):::hover[Integrate Auth0 with Frameworks]
-    F("Advanced Topics"):::hover[Dive into Advanced Auth0 Concepts]
-    G("Resources and Additional Information"):::hover[Access Valuable Resources]
-
-    linkStyle hover stroke:#4d4d4d,stroke-width:3px
 
 ```
 ---
