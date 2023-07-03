@@ -59,7 +59,7 @@ sequenceDiagram
 
 ```
 
-Congratulations! You have successfully created your Auth0 account. Now, let's move on to accessing the Auth0 dashboard.
+> Congratulations! You have successfully created your Auth0 account. Now, let's move on to accessing the Auth0 dashboard.
 
 ## 🖥️ Accessing the Auth0 Dashboard
 
