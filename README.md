@@ -44,49 +44,41 @@ The "Resources and Additional Information" directory provides links to official 
 
 ---
 
-## 🧭 Roadmap
+## 🧭 Roadmap 🗺️
 
 ```mermaid
-graph TD
-  subgraph Getting Started
-    A[Understand IAM Concepts] --> B[Explore Auth0 Docs]
-    B --> C[Set Up Auth0 Account]
-    C --> D[Learn Auth0 Architecture]
-  end
+graph LR
+    A[Getting Started] --> B[Sample Projects]
+    B --> C[Features and Tutorials]
+    C --> D[Best Practices and Security]
+    D --> E[Integration Guides]
+    E --> F[Advanced Topics]
+    F --> G[Resources and Additional Information]
 
-  subgraph Learning Path
-    D --> E[Study Authentication Methods]
-    E --> F[Master Single Sign-On (SSO)]
-    F --> G[Explore Multi-Factor Authentication (MFA)]
-    G --> H[Understand Social Login Integration]
-    H --> I[Dive into Custom Rules and Hooks]
-  end
+    style A fill:#ffcd85,stroke:#e6ac00,stroke-width:2px
+    style B fill:#ffa6b5,stroke:#e64d66,stroke-width:2px
+    style C fill:#d7a6ff,stroke:#9533ff,stroke-width:2px
+    style D fill:#b3ffb3,stroke:#33cc33,stroke-width:2px
+    style E fill:#ffad99,stroke:#ff6600,stroke-width:2px
+    style F fill:#85e0ff,stroke:#0099cc,stroke-width:2px
+    style G fill:#d9b3ff,stroke:#8000ff,stroke-width:2px
 
-  subgraph Practical Projects
-    I --> J[Build Sample Applications]
-    J --> K[Secure API Integrations]
-    K --> L[Implement Enterprise SSO]
-  end
+    linkStyle 0 stroke:#e6ac00,stroke-width:2px
+    linkStyle 1 stroke:#e64d66,stroke-width:2px
+    linkStyle 2 stroke:#9533ff,stroke-width:2px
+    linkStyle 3 stroke:#33cc33,stroke-width:2px
+    linkStyle 4 stroke:#ff6600,stroke-width:2px
+    linkStyle 5 stroke:#0099cc,stroke-width:2px
 
-  subgraph Best Practices and Security
-    L --> M[Follow Security Best Practices]
-    M --> N[Prevent Common Vulnerabilities]
-  end
+    A("Getting Started"):::hover[Explore Auth0 Basics]
+    B("Sample Projects"):::hover[Discover Use Cases and Integrations]
+    C("Features and Tutorials"):::hover[Learn Auth0 Features]
+    D("Best Practices and Security"):::hover[Ensure Secure Implementations]
+    E("Integration Guides"):::hover[Integrate Auth0 with Frameworks]
+    F("Advanced Topics"):::hover[Dive into Advanced Auth0 Concepts]
+    G("Resources and Additional Information"):::hover[Access Valuable Resources]
 
-  subgraph Integration and Deployment
-    N --> O[Integrate Auth0 in Web Apps]
-    O --> P[Deploy Auth0 in Mobile Apps]
-    P --> Q[Explore Auth0 SDKs]
-  end
-
-  subgraph Mastering Auth0
-    Q --> R[Deep Dive into Advanced Topics]
-    R --> S[Contribute to Auth0 Community]
-    S --> T[Share Your Auth0 Knowledge]
-  end
-
-  style subgraph Getting Started, Learning Path, Practical Projects, Best Practices and Security, Integration and Deployment, Mastering Auth0 fill:#f9f,stroke:#333,stroke-width:2px;
-  style A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T fill:#fff,stroke:#333,stroke-width:2px;
+    linkStyle hover stroke:#4d4d4d,stroke-width:3px
 
 ```
 ---
