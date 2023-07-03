@@ -118,51 +118,6 @@ flowchart TB
         AS[Efficient Identity Management]
     end
 
-    A --> AQ
-    B --> AQ
-    C --> AQ
-    D --> AQ
-    E --> AQ
-    F --> AR
-    G --> AR
-    H --> AR
-    I --> AS
-    J --> AS
-    K --> AS
-    L --> AS
-    M --> AR
-    N --> AR
-    O --> AR
-    P --> AR
-    Q --> AR
-    R --> AS
-    S --> AS
-    T --> AS
-    U --> AS
-    V --> AL
-    W --> AL
-    X --> AL
-    Y --> AL
-    Z --> AL
-    AA --> AL
-    AB --> AL
-    AC --> AL
-    AD --> AH
-    AE --> AM
-    AF --> AH
-    AG --> AJ
-    AM --> AP
-    AN --> AP
-    AO --> AM
-    AP --> AJ
-    AQ --> AL
-    AR --> AL
-    AS --> AL
-    AH --> AL
-    AI --> AL
-    AJ --> AL
-    AK --> AL
-    AL --> AS
 
 ```
 ---
