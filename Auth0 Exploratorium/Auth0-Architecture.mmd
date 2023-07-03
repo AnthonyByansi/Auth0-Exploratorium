@@ -1,0 +1,45 @@
+sequenceDiagram
+    participant User
+    participant Application
+    participant Auth0
+    participant Database
+
+    User->>Application: Requests Login
+    Application->>Auth0: Initiates Authentication Request
+    Auth0->>User: Redirects to Login Page
+    User->>Auth0: Enters Credentials
+    Auth0->>Auth0: Validates Credentials
+    Auth0-->>User: Sends Authentication Success
+    User->>Application: Redirects to Callback URL with Authorization Code
+
+    Application->>Auth0: Exchanges Authorization Code for Access Token
+    Auth0->>Application: Sends Access Token
+    Application->>Auth0: Requests User Information
+    Auth0->>Database: Retrieves User Data
+    Database-->>Auth0: Sends User Data
+    Auth0-->>Application: Sends User Information
+
+    Application->>Auth0: Requests Additional Resources
+    Auth0->>Auth0: Validates Authorization
+    Auth0->>Database: Retrieves Additional Data
+    Database-->>Auth0: Sends Additional Data
+    Auth0-->>Application: Sends Additional Resources
+
+    Application->>Auth0: Logs User Out
+    Auth0->>User: Clears Session
+    User-->>Application: Redirects to Logout URL
+
+    Application->>Auth0: Requests Token Revocation
+    Auth0->>Auth0: Revokes Access Token
+    Auth0->>Auth0: Clears User Session
+    Auth0->>Application: Sends Token Revocation Response
+
+    Note over Auth0: Other Auth0 Flows:
+    Application->>Auth0: Client Credentials Flow
+    Application->>Auth0: Resource Owner Password Flow
+    Application->>Auth0: Refresh Token Flow
+
+    Note over Auth0: Additional Features:
+    Application->>Auth0: Single Sign-On (SSO)
+    Application->>Auth0: Multi-factor Authentication (MFA)
+    Application->>Auth0: Role-Based Access Control (RBAC)
