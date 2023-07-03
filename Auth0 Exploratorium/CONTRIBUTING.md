@@ -1,61 +1,43 @@
-# Contributing to Auth0 Exploratorium
-
-🎉 Thank you for your interest in contributing to Auth0 Exploratorium! We welcome contributions from the community to help improve and expand our repository. Here's how you can get involved:
-
-## Types of Contributions
-
-🔧 **Bug Fixes**: If you come across a bug or issue in the codebase, please submit a detailed bug report or, even better, a pull request with a fix.
-
-💡 **Enhancements and Features**: Have a cool idea for a new feature or improvement? We'd love to hear it! Submit an issue or pull request with your proposed changes.
-
-📚 **Documentation**: Help us improve our documentation by fixing typos, clarifying explanations, or adding new examples. Submit a pull request with your changes.
-
-## Getting Started
-
-To get started with contributing to Auth0 Exploratorium, follow these steps:
-
-1. Fork the repository and clone it to your local development environment.
-
-2. Install the necessary dependencies by running `npm install` in the root directory.
-
-3. Create a new branch for your changes: `git checkout -b feature/my-feature` or `bugfix/issue-number`.
-
-4. Make your desired changes, ensuring that your code follows the repository's coding style and guidelines.
-
-5. Run the tests to make sure your changes don't introduce any regressions: `npm test`.
-
-6. Commit your changes with descriptive commit messages: `git commit -m "Add new feature: My Feature"`.
-
-7. Push your changes to your forked repository: `git push origin feature/my-feature`.
-
-8. Submit a pull request to the `main` branch of the Auth0 Exploratorium repository. Provide a clear description of your changes and any related issues.
-
-## Code Review Process
-
-Once you've submitted a pull request, our team will review your changes. Here's what you can expect during the code review process:
-
-- We'll provide feedback, suggestions, and any necessary changes that need to be made to ensure code quality and alignment with the repository's goals.
-
-- Feel free to address the feedback by making the requested changes directly in your pull request branch.
-
-- Once your changes have been reviewed and approved, they will be merged into the main repository.
-
-## Mermaid Diagram
-
-Here's a visual representation of our contribution process using a mermaid diagram:
-
 ```mermaid
-graph LR
+graph TD
     A[Fork the Repository] --> B[Clone the Repository]
     B --> C[Install Dependencies]
-    C --> D[Create a New Branch]
-    D --> E[Make Your Awesome Changes]
-    E --> F[Run Tests and Ensure Quality]
-    F --> G[Commit Your Changes]
-    G --> H[Push Your Changes]
-    H --> I[Submit a Pull Request]
-    I --> J[Code Review and Feedback]
-    J --> K[Merge Your Changes into Main]
+    C --> D[Create Your New Branch]
+    D --> E[Dive into Your Magic]
+    E --> F[Run the Enchanted Tests]
+    F --> G[Perform the Enchanted Commit]
+    G --> H[Push the Magic]
+    H --> I[Summon the Pull Request]
+    I --> J[Experience the Glorious Code Review]
+    J --> K[Merge the Wondrous Changes]
+```
+---
 
-style A,B,C,D,E,F,G,H,I,J,K fill:#F9F3EC,stroke:#1E90FF,stroke-width:2px
-style A,B,C,D,E,F,G,H,I,J,K, #F9F3EC,stroke:#1E90FF,stroke-width:2px
+## 🌌 Embrace Your Quest
+
+* Fork the Repository: Begin your journey by forking this repository to your own enchanted realm.
+
+* Clone the Repository: Delve into the depths of code by cloning the repository to your local machine.
+
+* Install Dependencies: Harness the powers of the required dependencies, ensuring you have all the spells needed.
+
+* Create Your New Branch: Forge your path by creating a new branch for your magical changes.
+  
+
+## 🧚‍♀️ Weave Your Magic
+
+* Dive into Your Magic: Channel your inner sorcery and weave your code magic into the project.
+
+* Run the Enchanted Tests: Unleash the mystical tests to ensure your spells work as expected.
+
+* Perform the Enchanted Commit: Capture your changes in a magical incantation called a commit.
+
+* Push the Magic: Send your enchanted changes back to your forked realm.
+
+ ##  🧙‍♂️ Summon the Elders
+ 
+* Summon the Pull Request: Conjure a pull request, calling forth your changes to be reviewed.
+
+* Experience the Glorious Code Review: The elders will provide valuable feedback and guidance to enhance your sorcery.
+
+* Merge the Wondrous Changes: Once your magic has been approved, the elders will merge your changes into the main repository.
