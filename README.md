@@ -42,7 +42,10 @@ If you're ready to dive deeper into Auth0's advanced capabilities, the "Advanced
 
 The "Resources and Additional Information" directory provides links to official Auth0 documentation, SDKs, and other valuable resources. It also includes curated blog posts, videos, and community-contributed content that can further enhance your understanding of Auth0 and IAM best practices. 📚🔍🌟
 
-## Roadmap
+---
+
+## 🧭 Roadmap
+
 ```mermaid
 graph TD
   subgraph Getting Started
@@ -87,6 +90,7 @@ graph TD
 
 ```
 ---
+
 ## 📝 License
 
 The content in this repository is available under the [LICENSE](LICENSE) file. Please review the license file for more details.
