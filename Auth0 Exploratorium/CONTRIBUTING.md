@@ -1,15 +1,69 @@
 ```mermaid
 graph TD
-    A[Fork the Repository] --> B[Clone the Repository]
-    B --> C[Install Dependencies]
-    C --> D[Create Your New Branch]
-    D --> E[Dive into Your Magic]
-    E --> F[Run the Enchanted Tests]
-    F --> G[Perform the Enchanted Commit]
-    G --> H[Push the Magic]
-    H --> I[Summon the Pull Request]
-    I --> J[Experience the Glorious Code Review]
-    J --> K[Merge the Wondrous Changes]
+    subgraph Repository
+        masterBranch(Master branch)
+        developBranch(Develop branch)
+        featureBranch1(Feature branch 1)
+        featureBranch2(Feature branch 2)
+        featureBranch3(Feature branch 3)
+    end
+
+    subgraph Pull Requests
+        pr1(Pull Request 1)
+        pr2(Pull Request 2)
+        pr3(Pull Request 3)
+    end
+
+    subgraph Actions
+        ci(CI/CD Workflow)
+        tests(Run Tests)
+        lint(Run Linter)
+        deploy(Deploy to Staging)
+        prChecks(Checks for PR)
+    end
+
+    subgraph Review
+        reviewers(Reviewers)
+        approval(Approval)
+        changes(Changes Requested)
+    end
+
+    subgraph Merge
+        mergePR(Merge Pull Requests)
+    end
+
+    masterBranch --> prChecks
+    developBranch --> prChecks
+    featureBranch1 --> pr1
+    featureBranch2 --> pr2
+    featureBranch3 --> pr3
+
+    pr1 --> ci
+    pr2 --> ci
+    pr3 --> ci
+
+    ci --> tests
+    ci --> lint
+
+    tests --> prChecks
+    lint --> prChecks
+
+    prChecks --> reviewers
+    reviewers --> approval
+    reviewers --> changes
+
+    pr1 --> reviewers
+    pr2 --> reviewers
+    pr3 --> reviewers
+
+    approval --> mergePR
+    changes --> pr1
+    changes --> pr2
+    changes --> pr3
+
+    mergePR --> masterBranch
+    mergePR --> developBranch
+
 ```
 ---
 
