@@ -47,29 +47,122 @@ The "Resources and Additional Information" directory provides links to official 
 ## 🧭 Roadmap 🗺️
 
 ```mermaid
-graph LR
-    A[Getting Started] --> B[Sample Projects]
-    B --> C[Features and Tutorials]
-    C --> D[Best Practices and Security]
-    D --> E[Integration Guides]
-    E --> F[Advanced Topics]
-    F --> G[Resources and Additional Information]
+flowchart TB
+    subgraph IAM Platform
+        subgraph Authentication
+            A[Username/Password]
+            B[Social Login]
+            C[Multifactor Authentication]
+            D[Passwordless]
+            E[Custom Authentication]
+        end
+        subgraph Authorization
+            F[RBAC (Role-Based Access Control)]
+            G[ABAC (Attribute-Based Access Control)]
+            H[Dynamic Authorization]
+        end
+        subgraph User Management
+            I[User Registration]
+            J[User Profiles]
+            K[User Metadata]
+            L[User Search]
+        end
+        subgraph Identity Providers
+            M[Active Directory]
+            N[LDAP]
+            O[OAuth2]
+            P[SAML]
+            Q[OpenID Connect]
+        end
+        subgraph Security
+            R[Secure Authentication Flows]
+            S[Vulnerability Prevention]
+            T[Token Management]
+            U[Security Best Practices]
+        end
+    end
+    subgraph SDKs and APIs
+        V[Auth0 SDKs]
+        W[Management API]
+        X[Authentication API]
+    end
+    subgraph Integrations
+        Y[JavaScript]
+        Z[React]
+        AA[Node.js]
+        AB[iOS]
+        AC[Android]
+    end
+    subgraph Resources
+        AD[Official Documentation]
+        AE[Community Forums]
+        AF[Tutorials and Guides]
+        AG[Sample Projects]
+    end
+    subgraph Learn and Master Auth0
+        AH[Study Auth0 Concepts]
+        AI[Explore Auth0 Features]
+        AJ[Experiment with Sample Projects]
+        AK[Utilize SDKs and APIs]
+        AL[Integrate Auth0 with your Applications]
+    end
+    subgraph Community
+        AM[Auth0 Community]
+        AN[Contribute to Open Source]
+        AO[Share Knowledge]
+        AP[Attend Auth0 Events]
+    end
+    subgraph Achieve Success
+        AQ[Secure and Scalable Applications]
+        AR[Enhanced User Experience]
+        AS[Efficient Identity Management]
+    end
 
-    style A fill:#ffcd85,stroke:#e6ac00,stroke-width:2px
-    style B fill:#ffa6b5,stroke:#e64d66,stroke-width:2px
-    style C fill:#d7a6ff,stroke:#9533ff,stroke-width:2px
-    style D fill:#b3ffb3,stroke:#33cc33,stroke-width:2px
-    style E fill:#ffad99,stroke:#ff6600,stroke-width:2px
-    style F fill:#85e0ff,stroke:#0099cc,stroke-width:2px
-    style G fill:#d9b3ff,stroke:#8000ff,stroke-width:2px
-
-    linkStyle 0 stroke:#e6ac00,stroke-width:2px
-    linkStyle 1 stroke:#e64d66,stroke-width:2px
-    linkStyle 2 stroke:#9533ff,stroke-width:2px
-    linkStyle 3 stroke:#33cc33,stroke-width:2px
-    linkStyle 4 stroke:#ff6600,stroke-width:2px
-    linkStyle 5 stroke:#0099cc,stroke-width:2px
-
+    A --> AQ
+    B --> AQ
+    C --> AQ
+    D --> AQ
+    E --> AQ
+    F --> AR
+    G --> AR
+    H --> AR
+    I --> AS
+    J --> AS
+    K --> AS
+    L --> AS
+    M --> AR
+    N --> AR
+    O --> AR
+    P --> AR
+    Q --> AR
+    R --> AS
+    S --> AS
+    T --> AS
+    U --> AS
+    V --> AL
+    W --> AL
+    X --> AL
+    Y --> AL
+    Z --> AL
+    AA --> AL
+    AB --> AL
+    AC --> AL
+    AD --> AH
+    AE --> AM
+    AF --> AH
+    AG --> AJ
+    AM --> AP
+    AN --> AP
+    AO --> AM
+    AP --> AJ
+    AQ --> AL
+    AR --> AL
+    AS --> AL
+    AH --> AL
+    AI --> AL
+    AJ --> AL
+    AK --> AL
+    AL --> AS
 
 ```
 ---
