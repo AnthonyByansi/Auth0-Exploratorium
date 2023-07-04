@@ -95,5 +95,3 @@ The content in this repository is available under the [LICENSE](LICENSE) file. P
 For any questions or feedback, please open an issue in this repository.
 
 Happy exploring with Auth0!
-
-
