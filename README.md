@@ -18,7 +18,7 @@ The Auth0 Exploratorium repository is your ultimate gateway to mastering Auth0's
 
 The "Getting Started" directory contains guides and instructions to help you quickly get up and running with Auth0. It provides step-by-step installation and configuration guides, as well as guidance on setting up your Auth0 account and obtaining necessary credentials. 🏁📖
 
-## 🧭How Auth0 works 🗺️
+## 🧭How Auth0 works
 
 ```mermaid
 sequenceDiagram
