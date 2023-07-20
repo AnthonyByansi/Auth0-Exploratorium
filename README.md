@@ -5,7 +5,7 @@ The Auth0 Exploratorium repository is your ultimate gateway to mastering Auth0's
 ## Table of Contents
 
 - [🚀 Getting Started](#getting-started)
-- [🧭 How Auth0 works](#how-Auth0-works)
+- [🧭 How Auth0 works](#how-auth0-works)
 - [🌟 Sample Projects](#sample-projects)
 - [💡 Features and Tutorials](#features-and-tutorials)
 - [🔒 Best Practices and Security](#best-practices-and-security)
