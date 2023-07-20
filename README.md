@@ -5,7 +5,7 @@ The Auth0 Exploratorium repository is your ultimate gateway to mastering Auth0's
 ## Table of Contents
 
 - [🚀 Getting Started](#getting-started)
-- [🧭 How Auth0 works](#How-Auth0-works)
+- [🧭 How Auth0 works](#how-auth0-works)
 - [🌟 Sample Projects](#sample-projects)
 - [💡 Features and Tutorials](#features-and-tutorials)
 - [🔒 Best Practices and Security](#best-practices-and-security)
@@ -18,7 +18,7 @@ The Auth0 Exploratorium repository is your ultimate gateway to mastering Auth0's
 
 The "Getting Started" directory contains guides and instructions to help you quickly get up and running with Auth0. It provides step-by-step installation and configuration guides, as well as guidance on setting up your Auth0 account and obtaining necessary credentials. 🏁📖
 
-## 🧭 How Auth0 works 🗺️
+## 🧭How Auth0 works
 
 ```mermaid
 sequenceDiagram
@@ -48,7 +48,7 @@ sequenceDiagram
 ```
 ---
 
-## 🌟 Sample Projects
+## 🌟Sample Projects
 
 Explore the "Sample Projects" directory to find a collection of sample applications showcasing various use cases and integrations with Auth0. Each project comes with detailed documentation, code samples, and step-by-step instructions. Whether you're working on web applications, mobile apps, or API integrations, these samples will help you understand how to incorporate Auth0 into your projects effectively.
 
@@ -66,25 +66,25 @@ Security is a crucial aspect of any application. The "Best Practices and Securit
 
 ---
 
-## 🔗 Integration Guides
+## 🔗Integration Guides
 
 The "Integration Guides" directory contains comprehensive guides and code samples for integrating Auth0 with various frameworks and platforms. Whether you're working with JavaScript, React, Node.js, iOS, or Android, you'll find detailed instructions on how to seamlessly integrate Auth0 into your chosen technology stack.
 
 ---
 
-## 🌈 Advanced Topics
+## 🌈Advanced Topics
 
 If you're ready to dive deeper into Auth0's advanced capabilities, the "Advanced Topics" section is for you. Discover topics such as custom rules and hooks, multi-application single sign-on (SSO), and enterprise integration strategies. These resources will help you unlock advanced functionality and tailor Auth0 to your specific needs. 💫🧙‍♀️🚀
 
 ---
 
-## 📚 Resources and Additional Information
+## 📚Resources and Additional Information
 
 The "Resources and Additional Information" directory provides links to official Auth0 documentation, SDKs, and other valuable resources. It also includes curated blog posts, videos, and community-contributed content that can further enhance your understanding of Auth0 and IAM best practices. 📚🔍🌟
 
 ---
 
-## 📝 License
+## 📝License
 
 The content in this repository is available under the [LICENSE](LICENSE) file. Please review the license file for more details.
 
