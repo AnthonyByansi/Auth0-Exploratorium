@@ -86,7 +86,7 @@ The [Resources and Additional Information](./Auth0-Exploratorium/Resources_and_A
 
 ## 📝License
 
-The content in this repository is available under the [LICENSE](LICENSE) file. Please review the license file for more details.
+The content in this repository is available under the [MIT LICENSE](LICENSE) file. Please review the license file for more details.
 
 ---
 
