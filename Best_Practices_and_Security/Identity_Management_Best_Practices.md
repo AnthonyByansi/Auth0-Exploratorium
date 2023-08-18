@@ -8,11 +8,11 @@ Centralize identity management by using a robust and scalable identity provider 
 
 ## 2. Implement Single Sign-On (SSO)
 
-Enable Single Sign-On (SSO) to provide a seamless user experience across your applications. SSO allows users to authenticate once and access multiple applications without the need to re-enter their credentials. By integrating Auth0's SSO capabilities, you can enhance user convenience and reduce the risk of password-related vulnerabilities.
+Enable `Single Sign-On (SSO)` to provide a seamless user experience across your applications. SSO allows users to authenticate once and access multiple applications without the need to re-enter their credentials. By integrating Auth0's SSO capabilities, you can enhance user convenience and reduce the risk of password-related vulnerabilities.
 
 ## 3. Use Identity Federation
 
-Implement identity federation to enable users to authenticate using external identity providers (IdPs) such as social media platforms or enterprise identity providers. This allows users to leverage their existing credentials, reducing the need for additional account creation and simplifying the authentication process. Auth0 supports a wide range of identity federation protocols, including OAuth, OpenID Connect, and SAML.
+Implement identity federation to enable users to authenticate using external `identity providers (IdPs)` such as social media platforms or enterprise identity providers. This allows users to leverage their existing credentials, reducing the need for additional account creation and simplifying the authentication process. Auth0 supports a wide range of identity federation protocols, including OAuth, OpenID Connect, and SAML.
 
 ## 4. Implement Role-Based Access Control (RBAC)
 
@@ -44,5 +44,5 @@ Keep your identity infrastructure up-to-date by promptly applying security patch
 
 By following these identity management best practices, you can establish a robust and secure identity management framework within your applications. Remember to regularly review and update your identity management processes to align with changing security requirements and evolving threats.
 
-Refer to Auth0's official documentation for additional guidance and detailed instructions on implementing these best practices in Auth0.
+Refer to the  [official documentation](https://auth0.com/docs/) for additional guidance and detailed instructions on implementing these best practices in Auth0.
 
