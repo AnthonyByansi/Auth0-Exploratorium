@@ -42,11 +42,3 @@ Establish monitoring and auditing practices to detect and respond to security in
 
 Keep your authentication infrastructure up-to-date by regularly applying security patches and updates provided by Auth0. Stay informed about security advisories and announcements, and promptly address any vulnerabilities or security issues reported by Auth0.
 
-## 10. Educate Users about Security Best Practices
-
-Educate your users about security best practices and potential risks associated with authentication. Provide clear instructions on how to protect their accounts, avoid phishing attacks, and report suspicious activities. Regularly communicate security updates and reinforce the importance of strong authentication practices.
-
-By implementing these best practices, you can establish a robust and secure authentication flow for your applications, ensuring the confidentiality, integrity, and availability of user accounts and data.
-
-Remember to review and customize the content based on your specific application requirements and security policies. Additionally, regularly refer to Auth0's official documentation for the latest security recommendations and guidelines.
-
