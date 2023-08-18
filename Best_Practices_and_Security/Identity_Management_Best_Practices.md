@@ -12,7 +12,7 @@ Enable Single Sign-On (SSO) to provide a seamless user experience across your ap
 
 ## 3. Use Identity Federation
 
-Implement identity federation to enable users to authenticate using external identity providers (IdPs) such as social media platforms or enterprise identity providers. This allows users to leverage their existing credentials, reducing the need for additional account creation and simplifying the authentication process. Auth0 supports a wide range of identity federation protocols, including OAuth, OpenID Connect, and SAML.
+Implement identity federation to enable users to authenticate using external `identity providers (IdPs)` such as social media platforms or enterprise identity providers. This allows users to leverage their existing credentials, reducing the need for additional account creation and simplifying the authentication process. Auth0 supports a wide range of identity federation protocols, including OAuth, OpenID Connect, and SAML.
 
 ## 4. Implement Role-Based Access Control (RBAC)
 
@@ -42,7 +42,6 @@ Implement monitoring and detection mechanisms to identify and respond to anomalo
 
 Keep your identity infrastructure up-to-date by promptly applying security patches and updates provided by Auth0. Stay informed about security advisories and announcements from Auth0 and regularly review and update your authentication and identity management components. This helps mitigate potential vulnerabilities and ensures a secure identity management ecosystem.
 
-By following these identity management best practices, you can establish a robust and secure identity management framework within your applications. Remember to regularly review and update your identity management processes to align with changing security requirements and evolving threats.
 
-Refer to Auth0's official documentation for additional guidance and detailed instructions on implementing these best practices in Auth0.
+Refer to the [official documentation](https://auth0.com/docs/) for additional guidance and detailed instructions on implementing these best practices in Auth0.
 
