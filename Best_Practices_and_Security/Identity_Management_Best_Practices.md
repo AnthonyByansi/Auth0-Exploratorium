@@ -42,7 +42,8 @@ Implement monitoring and detection mechanisms to identify and respond to anomalo
 
 Keep your identity infrastructure up-to-date by promptly applying security patches and updates provided by Auth0. Stay informed about security advisories and announcements from Auth0 and regularly review and update your authentication and identity management components. This helps mitigate potential vulnerabilities and ensures a secure identity management ecosystem.
 
-By following these identity management best practices, you can establish a robust and secure identity management framework within your applications. Remember to regularly review and update your identity management processes to align with changing security requirements and evolving threats.
 
-Refer to the  [official documentation](https://auth0.com/docs/) for additional guidance and detailed instructions on implementing these best practices in Auth0.
+
+Refer to the [official documentation](https://auth0.com/docs/) for additional guidance and detailed instructions on implementing these best practices in Auth0.
+
 
