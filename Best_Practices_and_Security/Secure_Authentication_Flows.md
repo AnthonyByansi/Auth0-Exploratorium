@@ -40,5 +40,7 @@ Establish monitoring and auditing practices to detect and respond to security in
 
 ## 9. Stay Up-to-Date with Security Patches
 
+
 Keep your authentication infrastructure up-to-date by regularly applying security patches and updates provided by Auth0. 
+
 
